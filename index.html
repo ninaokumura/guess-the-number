@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="game-container">
+        <h1 class="main-heading">Guess My Number</h1>
+        <div class="secret-num-container">
+          <div class="secret-num">?</div>
+        </div>
+        <div class="guess-num-container">
+          <p class="message">Start guessing...</p>
+          <input type="number" class="guess-num" />
+          <button class="btn check">Check</button>
+        </div>
+        <div class="score-container">
+          <p class="label-score">Score: <span class="score">20</span></p>
+          <p class="label-highscore">
+            Highscore: <span class="highscore">0</span>
+          </p>
+        </div>
+        <button class="btn again">Play Again</button>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
